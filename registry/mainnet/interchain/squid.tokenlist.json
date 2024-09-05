@@ -2501,6 +2501,40 @@
           "tokenManagerType": "mintBurn"
         }
       ]
-    }
+    },
+    
+      "0x9F7978581EBAC765C062C57EB001A13B2EAE2A2906D3C685467E47CC50336A14": {
+        "tokenId": "0x9F7978581EBAC765C062C57EB001A13B2EAE2A2906D3C685467E47CC50336A14",
+        "deployer": "0x9aEfC7586ac231e3C5DefE0F3B5044c448D220e8",
+        "originalMinter": null,
+        "prettySymbol": "ELDA",
+        "decimals": 18,
+        "originAxelarChainId": "bsc",
+        "tokenType": "customInterchain",
+        "deploySalt": "0x8f69147b7924139b6f6110a13a45cef9fa09dd6c1acd835359222768a3111a4e",
+        "iconUrls": {
+          "svg": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/elda.svg"
+        },
+        "deploymentMessageId": "0x83a93500d23Fbc3e82B410aD07A6a9F7A0670D66",
+        "coinGeckoId": "eldarune",
+        "chains": [
+          {
+            "symbol": "ELDA",
+            "name": "Eldarune",
+            "axelarChainId": "bsc",
+            "tokenAddress": "0xab2ed911bdbea001fd3b29adbc35d8a76e68aae4",
+            "tokenManager": "0x83a93500d23Fbc3e82B410aD07A6a9F7A0670D66",
+            "tokenManagerType": "mintBurn"
+          },
+          {
+            "symbol": "ELDA",
+            "name": "Eldarune",
+            "axelarChainId": "arbitrum",
+            "tokenAddress": "0xFa0CcA38Ad2e8E56F9402D41B58E4811C413624A",
+            "tokenManager": "0x83a93500d23Fbc3e82B410aD07A6a9F7A0670D66",
+            "tokenManagerType": "mintBurn"
+          }
+        ]
+      }
   }
 }
